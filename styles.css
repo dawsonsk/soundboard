@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
+#title {
+    font-family: 'helvetica-bold', sans-serif; /* or any font you like */
+    font-size: 3rem;                            /* adjust size */
+    color: rgb(45, 48, 71);                     /* dark blue */
+    margin-bottom: 2rem;                        /* space between title and buttons */
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.2);  /* optional glow effect */
+  }
+  
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(161, 100, 223);
+  background-color: rgb(244, 236, 123);
   font-family: 'helvetica-bold', sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -18,10 +28,10 @@ body {
 }
 
 .btn {
-  background-color: rebeccapurple;
-  border-radius: 5px;
+  background-color: rgb(97, 232, 225); 
+  border-radius: 50px;
   border: none;
-  color: #fff;
+  color: rgb(234, 242, 227);
   margin: 1rem;
   padding: 1.5rem 3rem;
   font-size: 1.2rem;
@@ -37,3 +47,5 @@ body {
   outline: none;
 }
 
+
+  
